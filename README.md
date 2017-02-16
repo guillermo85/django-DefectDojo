@@ -2,7 +2,11 @@
 
 ![Screenshot of DefectDojo](./doc/img/screenshot1.png)
 
-DefectDojo is a security program and vulnerability management tool. DefectDojo allows you to manage your application security program, maintain product and application information, schedule scans, triage vulnerabilities and push findings into defect trackers. Consolidate your findings into one source of truth with DefectDojo.
+DefectDojo permite gestionar vulnerabilidades de seguridad en aplicaciones y sistemas, ayuda en la colaboración de análisis de vulnerabilidades y pruebas de penetración, haciendo un seguimiento detallado por cada entorno y logrando un proceso mucho más eficiente en la administración de tales proyectos.
+
+Este fork pretende ser una traducción fiel a idioma Español, con algunas mejoras que permiten crear informes de vulnerabilidades con gran sencillez.
+
+is a security program and vulnerability management tool. DefectDojo allows you to manage your application security program, maintain product and application information, schedule scans, triage vulnerabilities and push findings into defect trackers. Consolidate your findings into one source of truth with DefectDojo.
 
 [![Build Status](https://travis-ci.org/OWASP/django-DefectDojo.svg?branch=master)](https://travis-ci.org/OWASP/django-DefectDojo)
 
@@ -39,62 +43,23 @@ Detailed guide for setting up DefectDojo on
 
 ### [Vagrant (deprecated)](./doc/install_vagrant.md)
 
-# Getting Started
-
-We recommend checking out the [about](./doc/about.md) document to learn the
-terminology of DefectDojo, and the
-[getting started guide](./doc/getting_started.md) for setting up a new
-installation. We've also created some example [workflows](./doc/workflows.md)
-that should give you an idea of how to use DefectDojo for your own team.
-
-# DefectDojo Client API's
-
-- DefectDojo Python API: `pip install defectdojo_api` or clone the [repository](https://github.com/aaronweaver/defectdojo_api).
-
-# Getting Involved
-
-<img src="https://github.com/devGregA/django-DefectDojo/blob/master/doc/img/slack_rgb.png" width="100">  
-<b>[Get Access.](https://owasp.herokuapp.com/)</b> Realtime discussion is done in the OWASP Slack Channel, #defectdojo.
-
-<br>
-<img src="https://github.com/devGregA/django-DefectDojo/blob/master/doc/img/Twitter_Logo.png" width="45">  
-The [DefectDojo Twitter Account](https://twitter.com/defect_dojo) tweets project updates and changes.
-
-# Available Plugins
-
-[Engagement Surveys](https://github.com/grendel513/defectDojo-engagement-survey) - A plugin that adds answerable surveys to engagements.
-
-[LDAP Integration](https://pythonhosted.org/django-auth-ldap/)
-
-[SAML Integration](https://pypi.python.org/pypi/djangosaml2/)
-
-
 # About Us
 
-DefectDojo is maintained by:
+El proyecto principal es mantenido por:
 
 - Greg Anderson ([@\_GRRegg](https://twitter.com/_GRRegg))
 - Charles Neill ([@ccneill](https://twitter.com/ccneill))
 - Jay Paz ([@jjpaz](https://twitter.com/jjpaz))
 - Aaron Weaver ([@weavera] (https://twitter.com/weavera))
 
-With past contributions from:
+Este fork está mantenido por:
 
-- Fatimah Zohra
-- Michael Dong
-
-# Support
-
-Proceeds are used for testing, infrastructure, etc.
-
- <b>[Stickers](https://www.stickermule.com/en/marketplace/tags/defectdojo)</b>
-
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=paypal%40owasp%2eorg&lc=US&item_name=OWASP%20DefectDojo&no_note=0&currency_code=USD&bn=PP%2dDonationsBF)
+- Guillermo Rodríguez ([HashRise](http://hashrise.com))
 
 # Sponsors
 
-Interested in becoming and sponsor and having your logo displayed? Please email greg.anderson@owasp.org
+([Security Advisor](http://www.sadvisor.com))
 
 # License
 
-DefectDojo is licensed under the [BSD Simplified license](LICENSE.md)
+DefectDojo y este fork se mantiene bajo la licencia [BSD Simplified license](LICENSE.md)
